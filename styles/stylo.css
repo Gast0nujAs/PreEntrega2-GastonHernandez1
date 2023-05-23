@@ -1,0 +1,64 @@
+.navbar-collapse{
+    
+    flex-grow: inherit;
+}
+
+.navbar {
+    
+    background-color: rgb(44, 207, 207);
+}
+
+@font-face {
+    font-family: CoffeAndCrafts;
+    src: url(../fonts/Coffee\ and\ Crafts.ttf);
+}
+
+
+.navbar-brand {
+    color: rgb(255, 255, 255);
+    font-family: CoffeAndCrafts;
+    font-size: 30px;
+    
+}
+.header__content {
+    background-image: url(../img/fondo.jpg);
+    background-position: center;
+    background-size: contain;
+    
+}
+
+.carousel-caption h5 {
+
+    color: white;
+    background-color: aqua;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.carousel-caption p {
+    color: black;
+}
+
+.card-body {
+    
+    color: rgb(4, 0, 255);
+}
+
+.header__content {
+    height: calc(100vh - 71px)
+}
+
+.header__img {
+    width: 100px;
+}
+
+@media (min-width: 773px) {
+    .header__img{
+        width: auto;
+        height: auto;
+        object-fit: cover;
+    }
+    
+}
+
